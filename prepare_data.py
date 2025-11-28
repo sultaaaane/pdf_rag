@@ -51,4 +51,4 @@ if not docs:
     print(f"No documents found in {BOOKS_PATH}")
 else:
     all_splits = split_text(docs)
-    store_vectore_db(docs)
+    store_vectore_db(all_splits)
